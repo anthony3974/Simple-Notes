@@ -7,8 +7,8 @@
         <VerticalStackLayout Padding="10,0" Spacing="15" x:Name="vsl">
             <Grid RowDefinitions="Auto" ColumnDefinitions="12*,12*,14*, 14*">
                 <Button Grid.Column="0" Text="Add" Clicked="Button_Clicked"/>
-                <Button Grid.Column="2" Text="Button 1" />
-                <Button Grid.Column="3" Text="Button 1" />
+                <Button Grid.Column="2" Text="Save" Clicked="Button_Clicked_1"/>
+                <Button Grid.Column="3" Text="Load" Clicked="Button_Clicked_2"/>
             </Grid>
 
         </VerticalStackLayout>
