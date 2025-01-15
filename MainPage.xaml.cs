@@ -56,6 +56,8 @@ namespace MyNotes
         }
         public void Save()
         {
+            Preferences.Clear();
+
             List<string> items = [];
             foreach (var item in grids)
             {
